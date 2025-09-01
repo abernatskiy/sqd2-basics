@@ -1,0 +1,26 @@
+{
+    "name": "sdk2-basics",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "build": "rm -rf lib && tsc",
+        "basic-pipeline": "ts-node src/basicPipeline.ts"
+    },
+    "dependencies": {
+        "@belopash/core": "0.0.3",
+        "@belopash/solana-stream": "0.0.4",
+        "@belopash/typeorm-target": "0.0.5",
+        "@clickhouse/client": "^1.11.2",
+        "@subsquid/borsh": "^0.3.0",
+        "@subsquid/typeorm-store": "^1.5.1",
+        "date-fns": "^4.1.0",
+        "dotenv": "^16.4.7"
+    },
+    "devDependencies": {
+        "@subsquid/typeorm-migration": "^1.3.0",
+        "@types/better-sqlite3": "^7.6.13",
+        "@types/node": "^18.19.83",
+        "ts-node": "^10.9.2",
+        "typescript": "~5.5.4"
+    }
+}
