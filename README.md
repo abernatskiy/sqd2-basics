@@ -17,3 +17,7 @@ docker compose up -d
 npm run build
 make process
 ```
+Read the database with
+```bash
+PGPASSWORD="postgres" PAGER="less -S" psql -h localhost -d defaultdb -U root -p 23751
+```
